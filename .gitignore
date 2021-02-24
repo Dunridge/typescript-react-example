@@ -27,4 +27,3 @@ yarn-error.log*
 
 # ignore xml
 *.xml
-workspace.xml
