@@ -1,4 +1,4 @@
-#Setting up a React app with TypeScript and SASS: 
+# Setting up a React app with TypeScript and SASS: 
 
 1) Create a TypeScript create-react-app using command:
 ```
