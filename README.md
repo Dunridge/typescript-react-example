@@ -1,3 +1,16 @@
+#Setting up a React app with TypeScript and SASS: 
+
+1) Create a TypeScript create-react-app using command:
+```
+npx create-react-app my-app --template typescript
+```
+2) Navigated into the create directory and install node-sass using command:
+```
+npm install --save  node-sass
+```
+3) Change the default generated App.css to App.scss
+4) Changed the import in App.tsx from import './App.css'; to import './App.scss';
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
