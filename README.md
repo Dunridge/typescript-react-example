@@ -10,6 +10,7 @@ npm install --save  node-sass
 ```
 3) Change the default generated App.css to App.scss
 4) Changed the import in App.tsx from import './App.css'; to import './App.scss';
+5) Sometimes you have to run npm install again so that the JSX code works properly
 
 # Getting Started with Create React App
 
