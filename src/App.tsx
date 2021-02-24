@@ -1,16 +1,26 @@
-import React from 'react';
-import './App.scss';
+import React from "react";
+import "./App.scss";
+import { TextField } from "./components/TextField";
+import { ReducerExample } from "./reducers/ReducerExample";
+import { Counter } from "./components/Counter";
 
 const App: React.FC = () => {
-
-    return (
-        <div className="app">
-            <p className="app__title">Boilerplate Typescript SCSS app</p>
-            <p className="app__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                A blanditiis cum, deserunt doloremque doloribus, eius eligendi eos eum excepturi facilis
-                fugit iste, laborum nemo possimus suscipit? Aperiam fuga ratione ut.</p>
-        </div>
-    );
-}
+  return (
+    <div className="app">
+      {/* <TextField text='hello' person={{ firstName: '', lastName: '' }} handleChange={ e => {
+                console.log(e.eventPhase);
+            }}/>
+            <ReducerExample/> */}
+      <Counter>
+        {({count, setCount}) => (
+          <div>
+            {count}
+            <button onClick={() => setCount(count+1)}>+</button>{" "}
+          </div>
+        )}
+      </Counter>
+    </div>
+  );
+};
 
 export default App;
